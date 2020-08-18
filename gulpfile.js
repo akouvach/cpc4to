@@ -31,9 +31,8 @@ gulp.task("test", (done) => {
   done();
 });
 
-gulp.task("serve", (done) => {
+gulp.task("serve", () => {
   require("./server.js");
-  done();
 });
 
 gulp.task("default", gulp.series("jshint", "test", "serve"));
