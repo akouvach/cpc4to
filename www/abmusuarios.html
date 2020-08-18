@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Usuarios</title>
+    <link rel="stylesheet" type="text/css" href="ArchivoCSS/registro.css">
+
+</head>
+
+<body >
+
+    <h1>Alta, Baja y Modificación de Usuarios y empresas</h1>
+
+    <div id="Ingreso"> 
+        <table style="width:100%">
+            <tr>
+                <td>Id de Empresa (número)</td>
+                <td><input type="number" id="empresa"></td>
+            </tr>
+            <tr>
+                <td>Nombre de Usuario</td>
+                <td><input type="text" id="nombreusuario"></td>
+            </tr>
+            <tr>
+                <td>Nivel (1=ADM, 2=Cliente) </td>
+                <td><input type="text" id="nivel"></td>
+            </tr>
+                <td style="width:50%">Contraseña</td>
+                <td style="width:50%"><input type="text" id="contrasena"></td>
+            </tr>
+    
+        </table>
+
+        <button onclick="cargarUsuarios()" > Mostrar usuarios registrados </button>
+        <button onclick="crearUsuarios()"> Registrar Usuarios </button>
+    </div>
+
+        <div id="ingreso2">
+            <table style="width:100%">
+                <tr>
+                    <td>Empresa</td>
+                    <td><input type="text" id="nombreempresa"></td>
+                    
+                </table>
+                <button onclick="cargarEmpresas()" > Mostrar empresas registradas </button>
+                <button onclick="crearEmpresas()"> Registrar empresa </button>
+        
+        </div>
+        
+        <div id="mostrarempresas">        
+
+        </div>
+    <div id="respuesta">
+    
+    </div>
+    
+    <script src= "ArchivoJS/abmusuarios.js"></script>
+</body>
+
+</html>

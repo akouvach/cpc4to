@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Artículos</title>
+    <link rel="stylesheet" type="text/css" href="ArchivoCSS/registroa.css">
+  
+</head>
+
+<body >
+
+    
+    <h1>Alta, Baja y Modificación de Articulos</h1>
+    <div id="container"> 
+    <table style="width:100%">
+        <tr>
+            <td>Empresa</td>
+            <td><input type="text" id="empresaarticulo"></td>
+        </tr>
+        <tr>
+            <td>Nombre Artículo</td>
+            <td><input type="text" id="nombrearticulo"></td>
+        </tr>
+    </table>
+    <button onclick="cargarArticulos();">Mostrar artículos registrados</button>
+    <button onclick="crearArticulos();">Registrar artículo</button>
+    
+    </div>
+    <div id="respuesta">
+    
+    </div>   
+
+    <script src= "ArchivoJS/abmarticulos.js"></script>
+    
+</body>
+</html>

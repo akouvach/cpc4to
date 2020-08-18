@@ -1,0 +1,41 @@
+body{
+    background: rgb(179, 177, 177) ;
+}
+
+h1 {
+    Color:rgb(2, 37, 192);
+    Font-size: 50px;   
+    margin: 0px;
+    text-align: center;
+    }
+
+h2 {
+    Color:rgb(132, 19, 207);
+    Font-size: 40px;   
+    margin: 0px;
+    text-align: center;
+}
+
+h3 
+{
+    Color:rgb(132, 19, 207);
+    Font-size: 40px;   
+    margin: 0px;
+    text-align: center;
+}
+
+h4
+{
+    Color:rgb(0, 116, 25);
+    Font-size: 30px;   
+    margin: 0px;
+    text-align: left;
+}  
+
+a
+{
+    Color:rgb(0, 0, 0);
+    Font-size: 20px;   
+    margin: 0px;
+    text-align: left;
+}

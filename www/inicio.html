@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title> Pagina principal inicio de sesion </title>
+        <link rel= "stylesheet" type ="text/css" href="archivoCSS/inicio.css"> 
+        <script>
+            function cambiatamaño() 
+            {
+                if(document.images)
+                {
+                    document.images.logo.style.width = '100%';
+                    document.images.logo.style.height = '100%';                    
+                }
+                else
+                {
+                    logo=document.getElementById("logo");
+                    logo.width = '100px';
+                    logo.height = '100px';
+                }
+            }
+        </script>
+    </head>
+
+<body> 
+        
+        <h1> Stock Manager</h1>
+       
+        
+        <div> 
+            
+            <p> 
+                Bienvenido a Stock Manager. Inicie sesion para realizar la consulta correspondiente. <br/>
+                
+                <table>
+                    <tr>
+                        <td>Usuario</td>
+                        <td><input type="text" id="usuario"></td>
+                    </tr>
+                    <tr>
+                        <td>Contraseña</td>
+                        <td><input type="password" id="contrasena"></td>
+                    </tr>
+
+                </table>
+
+             
+
+                <br> <button onclick="IniciarSesion();"> Iniciar Sesión </button>
+            </p>
+        </div>
+        
+        <script src= "ArchivoJS/inicio.js"></script>
+</body>
+</html>

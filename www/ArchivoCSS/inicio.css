@@ -1,0 +1,38 @@
+body 
+{
+background-image: url('../ArchivoFotos/inicio.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;        
+} 
+
+h1 {
+Color:rgb(245, 20, 12);
+Font-size: 75px;   
+margin: 75px;
+background-color: gray;
+display:inline-block}
+
+p {
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-style: bold;
+}
+
+p .cambiar{
+color: yellowgreen;
+font-size: 50 px;
+}
+
+div{
+
+width: 600px;
+height: 100;
+background:rgb(54, 211, 6);
+margin: 80px 600px;    
+padding:30px;
+border: 10px solid black;
+}
+
+.link :hover{color:red; }
+

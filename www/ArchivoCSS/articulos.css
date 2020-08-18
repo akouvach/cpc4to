@@ -1,0 +1,27 @@
+body
+{
+    background-image: url("../ArchivoFotos/almacen-para-tu-tienda-online.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1 {
+    Color:rgb(12, 218, 245);
+    Font-size: 75px; 
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 75px;
+    background-color: rgb(135, 161, 177);
+    display:inline-block}
+
+div{
+
+    width: 500px;
+    height: 300px;
+    background-image: url("../ArchivoFotos/Stock.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 0px;    
+    padding:5px;
+    border: 2px;
+    }

@@ -1,0 +1,42 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title> menu gral</title>
+        <link rel= "stylesheet" type="text/css" href="ArchivoCSS/ppal.css">
+
+        <script>
+            function cambiatamaño()
+        {
+            if(document.images)
+                {
+                document.images.logo.style.width= '100%';
+                document.images.logo.style.height= '100%';
+                }
+            else
+                {
+                logo= document.getElementById("logo");
+                logo.width= '100px';
+                logo.height= '100px';
+                }
+        }  
+        </script>
+    </head>
+
+    <body onload="cambiotamaño();">
+        <h1> Bienvenido a Stock Manager</h1>
+
+        <div aling=right>
+            <p>
+                Seleccione una operación<br/>
+           
+                </p>
+
+            <a href= "vistacliente.html" target="_blank" class= "Boton">Ver Vista de Cliente</a><br/>
+            <br><a href= "abmusuarios.html" target="_blank" class= "Boton">Dar de alta, baja o modificar Usuarios</a><br/>
+            <br><a href= "abmarticulos.html" target="_blank" class= "Boton">Dar de alta, baja o modificar Articulos</a><br/>
+            <br><a href= "abmremitos.html" target="_blank" class= "Boton">Dar de alta, baja o modificar Remitos</a><br/>
+        </div>
+
+
+    </body>
+</html>

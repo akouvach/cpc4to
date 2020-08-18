@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>Remitos</title>
+    <link rel="stylesheet" type="text/css" href="ArchivoCSS/registrob.css">
+    
+</head>
+
+<body >
+    <h1>Alta, Baja y Modificación de Remitos</h1>
+    <div id="container"> 
+    <table style="width:100%">
+        <tr>
+            <td>Tipo</td>
+        <!--<td><input type="text" id="tipo"></td> -->
+            <td><select name="Tipo" id="tipo">
+                <option value="1">1 (ingreso)</option> 
+                <option value="2" selected>2 (egreso)</option> </td>
+        </tr>
+            <td>Articulo</td>
+            <td><input type="text" id="articulo"></td>
+        </tr>
+        <tr>
+            <td>Empresa</td>
+            <td><div id="listaempresa"></div></td>
+        </tr>
+        <tr>
+            <td>Cantidad</td>
+            <td><input type="number" id="cantidad"></td>
+        </tr>
+
+        <tr>
+            <td>Fecha</td>
+            <td><input type="date" id="fecha"></td>
+        </tr>
+          
+    </table>
+    <button onclick="cargarRemitos();" type="button">Mostrar remitos registrados</button>
+    <button onclick="crearRemitos();" type="button">Registrar remito</button>
+
+    </div>
+
+<div id="container2">
+    
+    <table style="width:100%">
+        <tr>
+            <td>Articulo</td>
+            <td><input type="text" id="nombrearticulo"></td>
+        </tr>
+        <tr>
+            <td>Empresa</td>
+            <td><input type="text" id="empresay"></td>
+        </tr>
+        <tr>
+            <td>Foto</td>
+            <td><input type="file" id="foto"></td>
+        </tr>
+
+    
+    
+    
+        </table>
+        <button onclick="cargarArticulos()" > Mostrar articulos registrados </button>
+        <button onclick="crearArticulos()"> Registrar articulo </button>
+
+
+</div>
+    <div id="respuesta">
+    
+    </div>
+
+    <div id="showarticulos">
+    
+    </div>
+
+<!--
+<button onclick="ordenarTipo()">ordenar por tipo</button> -->
+    <script src="ArchivoJS/abmremitos.js"></script>
+</body>
+
+</html>
